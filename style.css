@@ -1,0 +1,36 @@
+html{
+    margin: 0;
+    padding: 0;
+    height :100%
+}
+body {
+    font-family: 'Arial', sans-serif;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    color: #fff;
+  }
+
+  #clock {
+    font-size: 3em;
+    margin-bottom: 20px;
+  }
+
+  #login {
+    display: none;
+    margin-bottom: 20px;
+  }
+
+  #todo-list {
+    list-style-type: none;
+    padding: 0;
+  }
+
+  #weather {
+    display: none;
+  }
